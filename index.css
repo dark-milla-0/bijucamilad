@@ -1,0 +1,477 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+.area--cabeca {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.logo img {
+    width: 300px;
+}
+.menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid #ddd;
+}
+.menu li{
+    list-style: none;
+    padding: 18px;
+    padding-top: 28px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: 'roboto';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    background-image: linear-gradient(to bottom, white, black);
+    color: #ddd;
+}
+.menu img {
+    display: none;
+}
+.active {
+    background-image: linear-gradient(to bottom, white, black);
+    color: #ddd;
+}
+.section1 {
+    margin-top: 4%;
+}
+a {
+    text-decoration: none;
+}
+.banner {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url('images1/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+}
+.banner .area-texto {
+    font-family: 'roboto';
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 5%;
+    color: #fff;
+}
+.banner .botao {
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+    width: 130px;
+}
+p {
+    color: red;
+    font-weight: 400;
+}
+.section2 {
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+.desc {
+    display: flex;
+}
+.desc .title {
+    font-family: 'roboto';
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 30px;
+}
+.desc .botao {
+    cursor: pointer;
+    font-family: 'roboto';
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid goldenrod;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 80%;
+}
+.desc .botao:nth-child(2) {
+    display: block;
+}
+.desc .botao:nth-child(3) {
+    display: none;
+}
+.desc .botao:hover {
+    box-shadow: 3px 3px 3px #ddd;
+}
+.cards {
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+.cards .imagem,
+.cards1 .imagem {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    background-image: linear-gradient(to top, black, white);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cards1 {
+    display: none;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+.cards .imagem:nth-child(1) {
+    background-image: url('images1/anel1.png');
+    background-position: center;
+    background-size: cover;
+}
+.cards .imagem:nth-child(2) {
+    background-image: url('images1/anel2.png');
+    background-position: center;
+    background-size: cover;
+}
+.cards .imagem:nth-child(3) {
+    background-image: url('images1/anel3.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+.cards .imagem:nth-child(1) {
+    background-color: aqua;
+}
+*/
+
+.imagem .card--area,
+.card--area1 {
+    margin-left: 13%;
+    font-family: 'dancing script';
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card--area1 {
+    margin-left: 22%;
+    font-size: 50px;
+}
+.imagem #borda {
+    width: 130px;
+    height: 5px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.article {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #aaa, #eee);
+}
+.article--int {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+.image .foto {
+    width: 250px;
+    height: 300px;
+    background-image: url('images1/b30.jpg');
+    background-position: center;
+    background-size: cover;
+    border: 8px solid #fff;
+    border-bottom: 70px solid #fff;
+    box-shadow: 15px 15px 15px gray;
+}
+.article--text {
+    padding: 50px;
+}
+.article--text .title1,
+.desc1 {
+    font-family: 'dancing script';
+    text-shadow: 5px 5px 5px black;
+    color: #fff;
+}
+.article--text .title1 {
+    font-family: 'dancing script';
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.article--text .desc1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-image: linear-gradient(to left, gray, #eee);
+    overflow: hidden;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 30px;
+    padding-top: 60px;
+    background-color: #eee;
+}
+.social--media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-right: 10%;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social img {
+    width: 50px;
+}
+.conteudo {
+    margin-left: 10%;
+}
+.conteudo a {
+    font-family: 'roboto';
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: #eee;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 5px;
+} 
+footer .msg {
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+
+@media (min-width:240px) and (max-width:479px) {
+    header {
+        overflow: hidden;
+        
+    }
+    .area--cabeca {
+        max-width: 200px;
+        
+    }
+    .logo img {
+        width: 200px;
+        
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu img {
+        display: flex;
+        width: 40px;
+        position: relative;
+    }
+    .area {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #eee;
+        margin-top: 20px;
+        width: 100vh;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        list-style: none;
+        padding: 15px;
+        padding-top: 10px;
+        border-bottom: 1px solid #000;
+        
+    }
+    .section1 {
+        margin-top: 4%;
+    }
+    .banner .area-texto {
+        line-height: 30px;
+        font-size: 15px;
+        margin-right: 10%;
+    }
+    .banner .botao {
+        margin-top: 15px;
+        padding: 6px;
+        width: 85px;
+    }
+    .desc .botao {
+        margin-left: 30%;
+    }
+    .cards,
+    .cards1 {
+        justify-content: center;
+    }
+    .cards .imagem,
+    .cards1 .imagem {
+    height: 250px;
+    width: 200px;
+    margin-left: 0;
+}
+    .card--area1 {
+    font-size: 30px;
+}
+.article--text .title1 {
+    font-size: 35px;
+}
+.article--text .desc1 {
+    font-size: 15px;
+}
+.image .foto {
+    width: 170px;
+    height: 200px;
+    margin-left: 30px;
+    border-bottom: 50px solid #fff;
+}
+.article--text {
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer {
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.social--media {
+    margin-right: 0;
+    
+}
+.conteudo {
+    margin-left: 0;
+    margin-top: 30px;
+}
+footer .msg {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 20px;
+}
+    
+}
+@media (min-width:480px) and (max-width:799px) {
+    header {
+        overflow: hidden;
+        
+    }
+    .area--cabeca {
+        max-width: 200px;
+        
+    }
+    .logo img {
+        width: 250px;
+        
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu img {
+        display: flex;
+        width: 40px;
+        position: relative;
+    }
+    .area {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vw;
+        background-color: #eee;
+        margin-top: 20px;
+        width: 100vw;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        list-style: none;
+        padding: 18px;
+        padding-top: 15px;
+        border-bottom: 1px solid #000;
+        
+    }
+    .desc .botao {
+        margin-left: 60%;
+    }
+    .cards,
+    .cards1 {
+        justify-content: center;
+    }
+    .article--int {
+        flex-wrap: nowrap;
+    }
+    .image .foto {
+        width: 170px;
+        height: 200px;
+        margin-left: 30px;
+        border-bottom: 50px solid #fff;
+    }
+    .article--text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .article--text .title1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .article--text .desc1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .social--media {
+        margin-right: 0;
+        
+    }
+    .conteudo {
+        margin-left: 0;
+    }
+}
+
+@media (min-width:800px) and (max-width:1079px) {
+    .logo img {
+        width: 280px;
+        
+    }
+    .desc .botao {
+        margin-left: 70%;
+    }
+}
+
+@media (min-width:1080px) and (max-width:1365px) {
+    
+}
