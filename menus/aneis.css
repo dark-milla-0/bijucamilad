@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.botaoV {
+    position: fixed;
+    background-image: url('../images1/ant.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    box-shadow: 5px 5px 5px gray;
+}
+.area--cabeca {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.logo img {
+    width: 300px;
+}
+.menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid #ddd;
+}
+.menu li{
+    list-style: none;
+    padding: 18px;
+    padding-top: 28px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: 'roboto';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    background-image: linear-gradient(to bottom, white, black);
+    color: #ddd;
+}
+.menu img {
+    display: none;
+}
+.active {
+    background-image: linear-gradient(to bottom, white, black);
+    color: #ddd;
+}
+
+.title {
+    text-align: center;
+    line-height: 70px;
+}
+.joia--title {
+    font-family: 'roboto';
+    font-size: 40px;
+    margin-top: 8%;
+}
+.joia--sub--title {
+    font-family: 'Ms Madi';
+    font-size: 40px;
+    
+}
+.joia--area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 8%;
+}
+.models {
+    display: none;
+   
+}
+.joia--item {
+    margin-bottom: 5%;
+}
+.joia--item--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 20px solid black;
+    width: 280px;
+}
+.joia--item--img img {
+    width: 250px;
+    height: 250px;
+}
+.joia--line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.joia--item--price {
+    margin-left: 25%;
+    color: #eee;
+}
+.joia--line, .joia--item--number {
+    font-family: 'roboto';
+    font-size: 25px;
+    background-color: black;
+    width: 280px;
+    text-transform: uppercase;
+    color: goldenrod;
+    font-weight: 100;
+}
+.joia--item--number {
+    padding-bottom: 8%;
+    font-weight: 400;
+}
+.joia--item--number span {
+    margin-left: 10%;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-image: linear-gradient(to left, gray, #eee);
+    overflow: hidden;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 30px;
+    padding-top: 60px;
+    background-color: #eee;
+}
+.social--media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-right: 10%;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social img {
+    width: 50px;
+}
+.conteudo {
+    margin-left: 10%;
+}
+.conteudo a {
+    font-family: 'roboto';
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: #eee;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 5px;
+} 
+footer .msg {
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+
+
+
+@media (min-width:240px) and (max-width:479px) {
+    header {
+        overflow: hidden;
+        
+    }
+    .area--cabeca {
+        max-width: 200px;
+        
+    }
+    .logo img {
+        width: 200px;
+        
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu img {
+        display: flex;
+        width: 40px;
+        position: relative;
+    }
+    .area {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #eee;
+        margin-top: 20px;
+        width: 100vh;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        list-style: none;
+        padding: 15px;
+        padding-top: 10px;
+        border-bottom: 1px solid #000;
+        
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .social--media {
+        margin-right: 0;
+        
+    }
+    .conteudo {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    footer .msg {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+}
+@media (min-width:480px) and (max-width:799px) {
+    header {
+        overflow: hidden;
+        
+    }
+    .area--cabeca {
+        max-width: 200px;
+        
+    }
+    .logo img {
+        width: 250px;
+        
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu img {
+        display: flex;
+        width: 40px;
+        position: relative;
+    }
+    .area {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vw;
+        background-color: #eee;
+        margin-top: 20px;
+        width: 100vw;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        list-style: none;
+        padding: 18px;
+        padding-top: 15px;
+        border-bottom: 1px solid #000;
+        
+    }
+
+
+    
+    .social--media {
+        margin-right: 0;
+        
+    }
+    .conteudo {
+        margin-left: 0;
+    }
+}
+@media (min-width:800px) and (max-width:1079px) {
+    .logo img {
+        width: 280px;
+        
+    }
+    .desc .botao {
+        margin-left: 70%;
+    }
+
+}
+@media (min-width:1080px) and (max-width:1365px) {
+
+}
+

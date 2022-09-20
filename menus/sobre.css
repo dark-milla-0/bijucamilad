@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    overflow: hidden;
+}
+.cabeçalho {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+.voltar {
+    background-image: url('../images1/ant.jpg');
+    background-size: cover;
+    background-position: -21px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 2vw;
+    box-shadow: 5px 5px 5px #ddd;
+    cursor: pointer;
+}
+.cabeçalho img {
+    width: 300px;
+    margin-left: 70vw;
+}
+
+section {
+    overflow: hidden;
+}
+.fundo {
+    background-image: url('../images1/download\ \(3\).jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+}
+.slide {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vw;
+}
+.my-foto img {
+    width: 200px;
+    transform: rotate(-90deg);
+    border: 15px solid #fff;
+    border-left: 50px solid #fff;
+    margin-top: 50%;
+    box-shadow: 5px 5px 5px gray;
+}
+.my-text {
+    font-family: 'kalam', cursive;
+    margin-top: 20%;
+    font-size: 30px;
+    color: #ddd;
+    width: 1000px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: linear-gradient(to left, gray, #eee);
+    overflow: hidden;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 30px;
+    padding-top: 60px;
+    background-color: #eee;
+}
+.social--media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-right: 10%;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social img {
+    width: 50px;
+}
+
+footer .msg {
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+@media (min-width:240px) and (max-width:479px) {
+    header {
+        height: 250px;
+    }
+    .cabeçalho {
+        display: flex;
+        flex-direction: column;
+    }
+    .voltar {
+        background-position: -15px;
+        width: 50px;
+        height: 50px;
+        margin-left: 0;
+}
+    .cabeçalho img {
+        width: 300px;
+        margin-left: 0;
+    }
+    .fundo {
+        height: 1000px;
+    }
+    .slide {
+        flex-direction: column;
+        height: 1000px;
+        text-align: center;
+    }
+    .my-text {
+        margin-left: 11px;
+        font-size: 15px;
+        width: 300px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    footer .msg {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (min-width:480px) and (max-width:799px) {
+    header {
+        height: 250px;
+    }
+    .cabeçalho {
+        display: flex;
+        flex-direction: column;
+    }
+    .voltar {
+        background-position: -15px;
+        width: 50px;
+        height: 50px;
+        margin-left: 0;
+}
+    .cabeçalho img {
+        width: 300px;
+        margin-left: 0;
+    }
+    .fundo {
+        height: 1200px;
+    }
+    .slide {
+        flex-direction: column;
+        height: 1200px;
+        text-align: center;
+    }
+    .my-text {
+        margin-left: 20px;
+        font-size: 20px;
+        width: 400px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    footer .msg {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width:800px) and (max-width:1079px) {
+    header {
+        height: 250px;
+    }
+    .cabeçalho {
+        display: flex;
+        flex-direction: column;
+    }
+    .voltar {
+        background-position: -15px;
+        width: 50px;
+        height: 50px;
+        margin-left: 0;
+}
+    .cabeçalho img {
+        width: 300px;
+        margin-left: 0;
+    }
+    .fundo {
+        height: 1200px;
+    }
+    .slide {
+        height: 1200px;
+        text-align: center;
+    }
+    .my-text {
+        margin-left: 20px;
+        font-size: 20px;
+        width: 400px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    footer .msg {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width:1080px) and (max-width:1365px) {
+    .voltar {
+        margin-left: 5vw;
+    }
+    .cabeçalho img {
+        margin-left:55vw;
+    }
+    .fundo {
+        height: 800px;
+    }
+    .slide {
+        height: 800px;
+        text-align: center;
+    }
+    .my-text {
+        margin-left: 20px;
+        font-size: 25px;
+        width: 700px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+}
